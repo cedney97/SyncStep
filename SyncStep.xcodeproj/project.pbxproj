@@ -56,15 +56,23 @@
 		319A81A32A0FE4E400FFE285 /* SyncStep */ = {
 			isa = PBXGroup;
 			children = (
+				319A81B82A0FE52500FFE285 /* View Controllers */,
 				319A81A42A0FE4E400FFE285 /* AppDelegate.swift */,
 				319A81A62A0FE4E400FFE285 /* SceneDelegate.swift */,
-				319A81A82A0FE4E400FFE285 /* ViewController.swift */,
 				319A81AA2A0FE4E400FFE285 /* Main.storyboard */,
 				319A81AD2A0FE4E900FFE285 /* Assets.xcassets */,
 				319A81AF2A0FE4E900FFE285 /* LaunchScreen.storyboard */,
 				319A81B22A0FE4E900FFE285 /* Info.plist */,
 			);
 			path = SyncStep;
+			sourceTree = "<group>";
+		};
+		319A81B82A0FE52500FFE285 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				319A81A82A0FE4E400FFE285 /* ViewController.swift */,
+			);
+			path = "View Controllers";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
