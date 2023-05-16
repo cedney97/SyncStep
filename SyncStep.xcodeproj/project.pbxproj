@@ -7,23 +7,35 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3179C3452A13D2F400A64810 /* WavyBackgroundView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3179C3442A13D2F400A64810 /* WavyBackgroundView.swift */; };
 		319A81A52A0FE4E400FFE285 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319A81A42A0FE4E400FFE285 /* AppDelegate.swift */; };
 		319A81A72A0FE4E400FFE285 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319A81A62A0FE4E400FFE285 /* SceneDelegate.swift */; };
-		319A81A92A0FE4E400FFE285 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319A81A82A0FE4E400FFE285 /* ViewController.swift */; };
+		319A81A92A0FE4E400FFE285 /* LandingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319A81A82A0FE4E400FFE285 /* LandingViewController.swift */; };
 		319A81AC2A0FE4E400FFE285 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319A81AA2A0FE4E400FFE285 /* Main.storyboard */; };
 		319A81AE2A0FE4E900FFE285 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 319A81AD2A0FE4E900FFE285 /* Assets.xcassets */; };
 		319A81B12A0FE4E900FFE285 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 319A81AF2A0FE4E900FFE285 /* LaunchScreen.storyboard */; };
+		319A81BB2A0FE66F00FFE285 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319A81BA2A0FE66F00FFE285 /* Constants.swift */; };
+		319A81C02A0FEB0500FFE285 /* falconpunch.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 319A81BF2A0FEB0500FFE285 /* falconpunch.ttf */; };
+		319B36742A10495F00D9D5F8 /* Roboto-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 319B36732A10495F00D9D5F8 /* Roboto-Bold.ttf */; };
+		319B36762A1097C300D9D5F8 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B36752A1097C200D9D5F8 /* LoginViewController.swift */; };
+		319B36782A1097D700D9D5F8 /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 319B36772A1097D700D9D5F8 /* SignupViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3179C3442A13D2F400A64810 /* WavyBackgroundView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WavyBackgroundView.swift; sourceTree = "<group>"; };
 		319A81A12A0FE4E400FFE285 /* SyncStep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SyncStep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		319A81A42A0FE4E400FFE285 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		319A81A62A0FE4E400FFE285 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		319A81A82A0FE4E400FFE285 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		319A81A82A0FE4E400FFE285 /* LandingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewController.swift; sourceTree = "<group>"; };
 		319A81AB2A0FE4E400FFE285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		319A81AD2A0FE4E900FFE285 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		319A81B02A0FE4E900FFE285 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		319A81B22A0FE4E900FFE285 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		319A81BA2A0FE66F00FFE285 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		319A81BF2A0FEB0500FFE285 /* falconpunch.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = falconpunch.ttf; sourceTree = "<group>"; };
+		319B36732A10495F00D9D5F8 /* Roboto-Bold.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Roboto-Bold.ttf"; sourceTree = "<group>"; };
+		319B36752A1097C200D9D5F8 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LoginViewController.swift; path = ../../../../../../../Applications/LoginViewController.swift; sourceTree = "<group>"; };
+		319B36772A1097D700D9D5F8 /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +49,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3179C3432A13D2D800A64810 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3179C3442A13D2F400A64810 /* WavyBackgroundView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		319A81982A0FE4E400FFE285 = {
 			isa = PBXGroup;
 			children = (
@@ -56,11 +76,13 @@
 		319A81A32A0FE4E400FFE285 /* SyncStep */ = {
 			isa = PBXGroup;
 			children = (
+				3179C3432A13D2D800A64810 /* Views */,
+				319A81BD2A0FEAAB00FFE285 /* Assets */,
+				319A81B92A0FE63B00FFE285 /* Utilities */,
 				319A81B82A0FE52500FFE285 /* View Controllers */,
 				319A81A42A0FE4E400FFE285 /* AppDelegate.swift */,
 				319A81A62A0FE4E400FFE285 /* SceneDelegate.swift */,
 				319A81AA2A0FE4E400FFE285 /* Main.storyboard */,
-				319A81AD2A0FE4E900FFE285 /* Assets.xcassets */,
 				319A81AF2A0FE4E900FFE285 /* LaunchScreen.storyboard */,
 				319A81B22A0FE4E900FFE285 /* Info.plist */,
 			);
@@ -70,9 +92,37 @@
 		319A81B82A0FE52500FFE285 /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				319A81A82A0FE4E400FFE285 /* ViewController.swift */,
+				319A81A82A0FE4E400FFE285 /* LandingViewController.swift */,
+				319B36752A1097C200D9D5F8 /* LoginViewController.swift */,
+				319B36772A1097D700D9D5F8 /* SignupViewController.swift */,
 			);
 			path = "View Controllers";
+			sourceTree = "<group>";
+		};
+		319A81B92A0FE63B00FFE285 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				319A81BA2A0FE66F00FFE285 /* Constants.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		319A81BD2A0FEAAB00FFE285 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				319A81BE2A0FEAB900FFE285 /* Fonts */,
+				319A81AD2A0FE4E900FFE285 /* Assets.xcassets */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		319A81BE2A0FEAB900FFE285 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				319B36732A10495F00D9D5F8 /* Roboto-Bold.ttf */,
+				319A81BF2A0FEB0500FFE285 /* falconpunch.ttf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -133,7 +183,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				319A81C02A0FEB0500FFE285 /* falconpunch.ttf in Resources */,
 				319A81B12A0FE4E900FFE285 /* LaunchScreen.storyboard in Resources */,
+				319B36742A10495F00D9D5F8 /* Roboto-Bold.ttf in Resources */,
 				319A81AE2A0FE4E900FFE285 /* Assets.xcassets in Resources */,
 				319A81AC2A0FE4E400FFE285 /* Main.storyboard in Resources */,
 			);
@@ -146,9 +198,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				319A81A92A0FE4E400FFE285 /* ViewController.swift in Sources */,
+				319B36782A1097D700D9D5F8 /* SignupViewController.swift in Sources */,
+				319A81A92A0FE4E400FFE285 /* LandingViewController.swift in Sources */,
 				319A81A52A0FE4E400FFE285 /* AppDelegate.swift in Sources */,
+				3179C3452A13D2F400A64810 /* WavyBackgroundView.swift in Sources */,
 				319A81A72A0FE4E400FFE285 /* SceneDelegate.swift in Sources */,
+				319B36762A1097C300D9D5F8 /* LoginViewController.swift in Sources */,
+				319A81BB2A0FE66F00FFE285 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
